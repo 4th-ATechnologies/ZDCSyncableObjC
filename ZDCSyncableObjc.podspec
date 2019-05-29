@@ -2,14 +2,14 @@ Pod::Spec.new do |s|
 	s.name         = "ZDCSyncableObjC"
 	s.version      = "1.0"
 	s.summary      = "Undo, redo & merge capabilities for plain objects in Objective-C."
-	s.homepage     = "https://github.com/4th-ATechnologies/ZDCSyncable"
+	s.homepage     = "https://github.com/4th-ATechnologies/ZDCSyncableObjC"
 	s.license      = 'MIT'
 
 	s.author = {
 		"Robbie Hanson" => "robbiehanson@deusty.com"
 	}
 	s.source = {
-		:git => "https://github.com/4th-ATechnologies/ZDCSyncable.git",
+		:git => "https://github.com/4th-ATechnologies/ZDCSyncableObjC.git",
 		:tag => s.version.to_s
 	}
 
