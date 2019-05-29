@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+workspace 'PodspecTest'
+project 'PodspecTest.xcodeproj'
+
+use_frameworks!
+
+target :'PodspecTest' do
+	pod 'ZDCSyncableObjC', path: '../', :inhibit_warnings => false
+end
+
