@@ -29,6 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
  *   You can get an immutable version via immutableCopy.
  *   And we purposefully do not implement mutableCopy to avoid confusion.
  */
+NS_SWIFT_NAME(ZDCObject_ObjC)
 @interface ZDCObject : NSObject <NSCopying>
 
 #pragma mark Immutability

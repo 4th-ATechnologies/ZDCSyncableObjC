@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  * - it supports undo & redo
  * - it supports merge operations
  */
+NS_SWIFT_NAME(ZDCRecord_ObjC)
 @interface ZDCRecord : ZDCObject <ZDCSyncable>
 
 //

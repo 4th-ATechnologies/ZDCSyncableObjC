@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
  * - performing undo & redo
  * - merging changes from external sources
  */
+NS_SWIFT_NAME(ZDCSyncable_ObjC)
 @protocol ZDCSyncable <NSObject>
 
 /**

@@ -10,6 +10,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * Utility methods for estimating the changes made to an array.
  */
+NS_SWIFT_NAME(ZDCOrder_ObjC)
 @interface ZDCOrder : NSObject
 
 /**

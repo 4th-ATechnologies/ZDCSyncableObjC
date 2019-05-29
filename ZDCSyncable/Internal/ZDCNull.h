@@ -24,6 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
  *   This is true: [ZDCNull null] == [[ZDCNull null] copy].
  *   Also, deserialzing an ZDCNull will properly return the singleton.
 **/
+NS_SWIFT_NAME(ZDCNull_ObjC)
 @interface ZDCNull : NSObject <NSCoding, NSCopying>
 
 + (id)null;

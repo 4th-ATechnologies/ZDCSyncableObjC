@@ -21,6 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
  * - it supports undo & redo
  * - it supports merge operations
  */
+NS_SWIFT_NAME(ZDCOrderedDictionary_ObjC)
 @interface ZDCOrderedDictionary<KeyType, ObjectType> : ZDCObject <NSCoding, NSCopying, NSFastEnumeration, ZDCSyncable>
 
 /**

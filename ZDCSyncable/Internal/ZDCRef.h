@@ -19,7 +19,8 @@ NS_ASSUME_NONNULL_BEGIN
  *   You cannot alloc/init an ZDCRef instance. (You can try, but it will throw an exception.)
  *   This is true: [ZDCRef ref] == [[ZDCRef ref] copy].
  *   Also, deserialzing an ZDCRef will properly return the singleton.
-**/
+ */
+NS_SWIFT_NAME(ZDCRef_ObjC)
 @interface ZDCRef : NSObject <NSCoding, NSCopying>
 
 + (id)ref;
