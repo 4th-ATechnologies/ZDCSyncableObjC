@@ -8,8 +8,6 @@ By: [ZeroDark.cloud](https://www.zerodark.cloud): A secure sync & messaging fram
 
 &nbsp;
 
----
-
 ## Undo & Redo
 
 Example #1
