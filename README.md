@@ -183,7 +183,7 @@ Then just run `pod install` as usual. And then you can import it via:
 
 ```objective-c
 // using module-style imports:
-@import ZDCSyncable;
+@import ZDCSyncableObjC;
 
 // or you can use classic-style imports:
 #import <ZDCSyncableObjC/ZDCSyncableObjC.h>
