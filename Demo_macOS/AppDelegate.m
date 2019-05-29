@@ -15,7 +15,7 @@
  * How to use ZDCSyncable project in your app:
  */
 @interface FooBar: ZDCRecord // < Just extend ZDCRecord
-	
+
 @property (nonatomic, copy, readwrite) NSString *someString; // add your properties as usual
 @property (nonatomic, readwrite) NSUInteger someInt;         // and that's it !
 
